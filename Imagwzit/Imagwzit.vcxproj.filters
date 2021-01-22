@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ressources">
+      <UniqueIdentifier>{431d7978-790f-4c70-957e-adac61790c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites">
+      <UniqueIdentifier>{98301804-fd0a-496f-a1fb-dc1d7433066f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\FreeArt">
+      <UniqueIdentifier>{41f31c67-0d3b-45b0-87cf-3f709101e1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\ZombiesAndSurvivors">
+      <UniqueIdentifier>{e2161581-7036-412f-85c0-46a2b82addd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\Projectiles">
+      <UniqueIdentifier>{5a97e751-04a6-448f-96ac-ad3bff16c956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sprites\Logos">
+      <UniqueIdentifier>{5cdbe3f2-9ca0-490f-a995-3d042b8ce4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Fonts">
+      <UniqueIdentifier>{cdbdfc3b-2cf7-4119-af09-384580584aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressources\Sounds">
+      <UniqueIdentifier>{25adf7ed-4984-4b91-bce2-dc98fef79335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\UI">
+      <UniqueIdentifier>{190b9417-1ff3-4273-90c2-fbcb59f5795a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\UI">
+      <UniqueIdentifier>{04779652-971b-4ddf-bfc3-d9b381c7437c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\PowerUp">
+      <UniqueIdentifier>{d0e20342-484c-49a8-97c4-872a7ead9222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\PowerUp">
+      <UniqueIdentifier>{879d58f8-0965-4103-88ff-4e7f04e59cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Enemies">
+      <UniqueIdentifier>{d9a32ce4-747d-46ed-b071-9cb766792024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Enemies">
+      <UniqueIdentifier>{e43ae0bf-393d-44b2-bb40-ae4c9785ce8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Projectiles">
+      <UniqueIdentifier>{437a308a-a8c0-45d1-af89-be8506750b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Projectiles">
+      <UniqueIdentifier>{e254d801-62c1-424b-942a-dba0a5f46c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Scenes">
+      <UniqueIdentifier>{83a2f79e-da3f-4167-b4d5-a04653a3b751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Scenes">
+      <UniqueIdentifier>{b0794be6-2aeb-4db0-af9f-91c119ee8a6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionCircle.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreIndicator.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructible.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonus.cpp">
+      <Filter>Fichiers sources\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomButton.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Fichiers sources\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbox.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreMultiplier.cpp">
+      <Filter>Fichiers sources\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Fichiers sources\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="GasBomb.cpp">
+      <Filter>Fichiers sources\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldBonus.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructableWall.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Fichiers sources\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Fichiers sources\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Fichiers sources\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Fichiers sources\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Fichiers sources\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomberman.cpp">
+      <Filter>Fichiers sources\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Fichiers sources\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Fichiers sources\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Fichiers sources\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCredits.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnd.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInstructions.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMenu.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="AmmoBox.cpp">
+      <Filter>Fichiers sources\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Fichiers sources\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Fichiers sources\Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CollisionCircle.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreIndicator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Destructible.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Bonus.h">
+      <Filter>Fichiers d%27en-tête\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomButton.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreMultiplier.h">
+      <Filter>Fichiers d%27en-tête\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbox.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Fichiers d%27en-tête\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Fichiers d%27en-tête\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Fichiers d%27en-tête\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Manip.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Recorder.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructableWall.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldBonus.h">
+      <Filter>Fichiers d%27en-tête\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="GasBomb.h">
+      <Filter>Fichiers d%27en-tête\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Fichiers d%27en-tête\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Fichiers d%27en-tête\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Fichiers d%27en-tête\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Fichiers d%27en-tête\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Fichiers d%27en-tête\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomberman.h">
+      <Filter>Fichiers d%27en-tête\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Fichiers d%27en-tête\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Fichiers d%27en-tête\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Fichiers d%27en-tête\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Fichiers d%27en-tête\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCredits.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnd.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInstructions.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMenu.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="AmmoBox.h">
+      <Filter>Fichiers d%27en-tête\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Fichiers d%27en-tête\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\FreeArt\Zombie1.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Zombie2.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Zombie3.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Zombie1.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Zombie2.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Zombie3.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Zombie4.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Survivor1.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Survivor2.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Survivor3.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\ZombiesAndSurvivors\Survivor4.png">
+      <Filter>Ressources\Sprites\ZombiesAndSurvivors</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Bullet.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Flame.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Missile.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Scatter.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\FlameLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\MissileLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\ScatterLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Player.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\Field.jpg">
+      <Filter>Ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\DungeonTileset.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\character.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Floor.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Tiles.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\spider.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\Ghost.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\spider09.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\bomberman.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\bombs.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\heart.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\lazerbeambullet.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\spawner.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\spiderweb.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\usergun.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\zombie_n_skeleton2.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\BlueShieldLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\DamageMultiplierLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\GreenShieldLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\ImpulseLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\RedShieldLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\ScoreMultiplierLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\StarLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\TeleportLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\FreeArt\skeleton.png">
+      <Filter>Ressources\Sprites\FreeArt</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\BlueBombLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\GreenBombLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\RedBombLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\GasBombLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\RocketLauncherLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\LaserLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\RocketLauncher.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Projectiles\Laser.png">
+      <Filter>Ressources\Sprites\Projectiles</Filter>
+    </Image>
+    <Image Include="Sprites\Logos\BulletLogo.png">
+      <Filter>Ressources\Sprites\Logos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Fonts\segoepr.ttf">
+      <Filter>Ressources\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sounds\demomakerthemusette.ogg">
+      <Filter>Ressources\Sounds</Filter>
+    </None>
+  </ItemGroup>
+</Project>

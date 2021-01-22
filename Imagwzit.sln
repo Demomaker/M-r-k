@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Imagwzit", "Imagwzit\Imagwzit.vcxproj", "{653F4552-5AA9-4918-8EE6-3FC680E31C3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImagwzitTest", "ImagwzitTest\ImagwzitTest.vcxproj", "{DE889F1E-ECE3-4F05-9F2B-6F7FAADE55E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithme", "Algorithme\Algorithme.vcxproj", "{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653F4552-5AA9-4918-8EE6-3FC680E31C3C}.Debug|x64.ActiveCfg = Debug|Win32
+		{653F4552-5AA9-4918-8EE6-3FC680E31C3C}.Debug|x86.ActiveCfg = Release|Win32
+		{653F4552-5AA9-4918-8EE6-3FC680E31C3C}.Debug|x86.Build.0 = Release|Win32
+		{653F4552-5AA9-4918-8EE6-3FC680E31C3C}.Release|x64.ActiveCfg = Release|Win32
+		{653F4552-5AA9-4918-8EE6-3FC680E31C3C}.Release|x86.ActiveCfg = Release|Win32
+		{653F4552-5AA9-4918-8EE6-3FC680E31C3C}.Release|x86.Build.0 = Release|Win32
+		{DE889F1E-ECE3-4F05-9F2B-6F7FAADE55E9}.Debug|x64.ActiveCfg = Debug|Win32
+		{DE889F1E-ECE3-4F05-9F2B-6F7FAADE55E9}.Debug|x86.ActiveCfg = Release|Win32
+		{DE889F1E-ECE3-4F05-9F2B-6F7FAADE55E9}.Debug|x86.Build.0 = Release|Win32
+		{DE889F1E-ECE3-4F05-9F2B-6F7FAADE55E9}.Release|x64.ActiveCfg = Release|Win32
+		{DE889F1E-ECE3-4F05-9F2B-6F7FAADE55E9}.Release|x86.ActiveCfg = Release|Win32
+		{DE889F1E-ECE3-4F05-9F2B-6F7FAADE55E9}.Release|x86.Build.0 = Release|Win32
+		{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}.Debug|x64.ActiveCfg = Debug|x64
+		{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}.Debug|x64.Build.0 = Debug|x64
+		{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}.Debug|x86.ActiveCfg = Release|Win32
+		{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}.Debug|x86.Build.0 = Release|Win32
+		{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}.Release|x64.ActiveCfg = Release|x64
+		{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}.Release|x64.Build.0 = Release|x64
+		{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}.Release|x86.ActiveCfg = Release|Win32
+		{DE5BBC90-DA3E-48A3-9084-D7E725F544D6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {398E8685-6637-4109-A7F6-41761E3F65B5}
+	EndGlobalSection
+EndGlobal
